@@ -70,7 +70,7 @@ $(document).ready(function () {
         event.preventDefault();
         var elementClick = $(this).attr("href");
         var destination = $(elementClick).offset().top - 58;
-        $('body').animate({ scrollTop: destination }, 1100); //1100 - скорость
+        $('body').animate({ scrollTop: destination }, 1100);
         return false;
     });
 });
