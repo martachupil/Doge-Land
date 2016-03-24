@@ -104,6 +104,10 @@ body {
   font-family: Roboto, sans-serif;
   margin-top: 40px;
 }
+.projects-name a {
+  color: #fff;
+  text-decoration: none;
+}
 
 .tittle-main {
   margin-top: 10px;
@@ -738,5 +742,251 @@ header.mobile {
 .cunt-ainer {
   margin-top: 58px;
 }
+
+@media screen and (max-width: 1199px) {
+
+  .top li a {
+    padding: 21px 0px 0px 19px;
+}
+    .top li {
+    font-size: 10px;
+}
+.info {
+  display: none;
+}
+.text-main {
+  margin-bottom: 10px;
+}
+.promotion-text {
+    padding-top: 35px;
+    font-size: 16px;
+    padding-left: 15px;
+    color: #222d32;
+}
+.prerogative {
+  margin-top: 15px;
+}
+
+.present-butt button {
+  line-height: 22px;
+}
+.ico-wrapper-03 {
+  padding: 25px 10px;
+      width: 360px;
+}
+.partners-wrapper {
+  border-left:none;
+}
+
+.partners-name-02 {
+    padding: 0px 20px;
+}
+.top li a:hover {
+  background-color: #367fa9;
+}
+  }
+
+
+  @media screen and (max-width: 1002px) {
+
+.ico-wrapper-03 {
+    padding: 25px 10px;
+    width: 260px;
+}
+.ico-text-02 {
+    font-size: 21px; }
+    .img-ico {
+      float: right!important;
+    }
+
+  }
+
+  @media screen and (max-width: 999px) {
+
+.ico-wrapper-03 {
+    padding: 25px 10px;
+        width: 375px;
+}
+.ico-text-02 {
+    font-size: 21px; }
+    .img-ico {
+      float: left!important;
+    }
+    .myvet {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .promotion-cube {
+    margin: 0 auto;
+  }
+
+  .doggy img {
+    display: none;
+  }
+  .table button {
+    padding: 15px 30px;
+    font-size: 20px;
+  }
+  .doggy-02 img {
+    display: none;
+  }
+
+  .team-title {
+    padding-top: 15px;
+  }
+.partners-name-02 {
+    padding: 0px 0px;
+}
+.projects-name {
+  font-size: 15px;
+}
+  }
+@media screen and (max-width: 760px) {
+  .projects-wrapper {
+    margin-bottom: 12px;
+  }
+
+ }
+
+
+  @media screen and (max-width: 480px) {
+    .myvet span {
+      padding-top: 15px;
+      line-height: 20px;
+    }
+    .string {
+      padding: 10px 20px 58px;
+    }
+    .tittle-main {
+    margin-top: 10px;
+    font-size: 31px;
+    font-family: Roboto Th, sans-serif;
+    line-height: 37px;
+    letter-spacing: -1px;
+    word-spacing: 5px;
+    color: #000;
+}
+.text-main-wrapper button {
+    border: 0px;
+    font-size: 22px;
+    padding: 20px 45px;
+    margin-top: 10px;
+}
+.promotion-cube {
+    background-color: #3178a1;
+    width: 120px;
+    min-height: 120px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.promotion-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: #222d32;
+}
+.prerogative h2 {
+    font-size: 30px;
+    font-family: Roboto Th, sans-serif;
+}
+.packet-text h2 {
+    font-size: 30px;
+}
+.doggy img {
+  display: none;
+  }
+  .packet-text {
+    padding: 0px;
+  }
+  .table button {
+    background-color: #3fb328;
+    border: 0px;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    padding: 20px 20px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.vip-mark img {
+  display: none;
+}
+
+.present-text {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    line-height: 26px;
+}
+.vip-text {
+    font-size: 27px; }
+
+.present-butt {
+    text-align: center;
+    padding-top: 10px;
+}
+.present-butt button {
+    font-size: 18px;
+    padding: 15px;
+}
+.meta-title {
+    font-size: 30px;
+    line-height: 27px;
+}
+
+.ico-wrapper-03 {
+    padding: 10px 0px;
+    width: 100%;
+}
+.meta-container.img-ico {
+  display: none;
+}
+.ico-text-02 {
+  font-size: 15px;
+    width: 100%;
+    padding-top: 10px;
+    line-height: 16px;
+    float: left!important;
+}
+.doggy-02 {
+  display: none;
+}
+.team-title {
+    padding-top: 20px;
+    font-size: 30px;
+    line-height: 30px;
+}
+.partners-title {
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 5px;
+}
+
+.partners {
+    padding: 15px 0px;
+}
+.partners-wrapper {
+  boder: none;
+}
+#backTop {
+      display: none!important;
+}
+
+.projects-title {
+    font-size: 30px;
+    line-height: 30px;
+    padding: 10px 0px 0px 0px;
+}
+
+.projects-wrapper {
+    margin-bottom: 10px;
+}
+}
+
+
 
 
