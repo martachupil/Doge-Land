@@ -1,4 +1,41 @@
 
+$(document).ready(function() {
+ 
+  var owl = $("#owl-demo");
+ 
+  owl.owlCarousel({
+     
+      itemsCustom : [
+        [0, 1],
+        [450, 2],
+        [1200, 4],
+      ],
+      navigation : true,
+      pagination:false
+ 
+  });
+ 
+});
+
+
+
+ 
+  var owl = $("#owl-demo-02");
+ 
+  owl.owlCarousel({
+     
+      itemsCustom : [
+        [0, 1],
+        [450, 2],
+        [1200, 4],
+      ],
+      navigation : true,
+      pagination:false
+ 
+  });
+
+
+
 $(document).ready( function() {
     $('#backTop').backTop({
         'position' : 800,
