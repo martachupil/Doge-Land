@@ -27,15 +27,6 @@ setInterval(function () {
     getE("hours").innerHTML = hours;
     getE("minutes").innerHTML = minutes;
     getE("seconds").innerHTML = seconds;
-	
-	if(days === 0){
-     if (hours === 0) {
-      if (minutes === 0) {
-       if (seconds === 0) {
-        clearInterval(timer);
-       };
-      };
-     };
-    };
 
 }, 1000);
+
